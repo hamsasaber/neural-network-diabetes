@@ -1,0 +1,18 @@
+======================================================================
+DETAILED CLASSIFICATION METRICS - DIABETES
+======================================================================
+
+Overall Metrics (Positive Class: Diabetes):
+  Accuracy:  0.7338
+  Precision: 0.6444 (of predicted Diabetes, 64.44% are correct)
+  Recall:    0.5370 (we catch 53.70% of actual Diabetes cases)
+  F1-Score:  0.5859 (harmonic mean)
+
+Healthy (Class 0) Identification:
+  Recall:    0.8400 (catch 84.00% of healthy cases)
+  Precision: 0.7706
+
+📊 Medical Interpretation:
+  • False Negatives: 25 cases (Actually Diabetic but predicted as Healthy) ⚠️
+  • False Positives: 16 cases (Actually Healthy but predicted as Diabetic)
+  • For medical diagnosis: High Recall is critical to avoid missing sick patients!
